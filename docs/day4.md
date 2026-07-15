@@ -72,4 +72,4 @@ One line instead of a growing if/elif chain. When you add a new tool, you just a
 
 ## Next
 
-Day 5 — system prompts: what they are, where they sit in the messages list, and how they control agent behavior across an entire conversation. Also finally fixing the hallucination from Day 3.
+Day 5 — CLI(command line interface) Chatbot. Also finally fixing the hallucination from Day 3.

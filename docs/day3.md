@@ -128,4 +128,4 @@ The model returns tool arguments as a JSON string, not a Python dictionary. With
 
 ## Next
 
-Day 4 — system prompts: what they are, where they sit in the messages list, and how they control agent behavior across an entire conversation. Also fixing the hallucination from today.
+Day 4 — Agentic loop: The basic loop which is behind every agents working.
