@@ -37,7 +37,8 @@ tools = [
     }}
 ]
 
-messages = [{"role": "user", "content": "What's the temperature in Lahore, and what is that multiplied by 3?"}]
+messages = [{"role": "system", "content": "Answer strictly using the tool results, without adding unstated details."},
+        {"role": "user", "content": "What's the temperature in Lahore, and what is that multiplied by 3?"}]
 
 for i in range(5):
     response = client.chat.completions.create(
