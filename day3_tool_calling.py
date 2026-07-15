@@ -44,8 +44,8 @@ tools = [
     }
 ]
 
-messages = [
-    {"role": "user", "content": "What's the weather in Lahore and what is 10 multiplied by 5?"}
+messages = [{"role": "system", "content": "Answer strictly using the tool results, without adding unstated details."},
+            {"role": "user", "content": "What's the weather in Lahore and what is 10 multiplied by 5?"}
 ]
 
 response = client.chat.completions.create(
