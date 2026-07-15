@@ -15,7 +15,7 @@ while True:
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=messages
-    )
+ )
     bot_reply = response.choices[0].message.content
     messages.append({"role": "assistant", "content": bot_reply})
     print(f"Bot: {bot_reply}")
