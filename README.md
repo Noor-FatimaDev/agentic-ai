@@ -12,6 +12,9 @@ A self-directed 2-month roadmap to become an agentic AI engineer — built entir
 |-----|-------|------|
 | Day 1 | First raw LLM API call | [day1_first_call.py](day1_first_call.py) |
 | Day 2 | Prompting fundamentals — zero-shot, few-shot, chain-of-thought | [day2_prompting.py](day2_prompting.py) |
+| Day 3 | Tool calling with the raw API — model chooses and calls functions | [day3_tool_calling.py](day3_tool_calling.py) |
+| Day 4 | Multi-step agentic loop — model chains tool calls without being told to | [day4_agentic_loop.py](day4_agentic_loop.py) |
+| Day 5 | CLI chatbot with conversation history (no framework) | [day5_chatbot.py](day5_chatbot.py) |
 
 ## Daily logs
 Detailed notes for each day are in the [`docs/`](docs/) folder.
