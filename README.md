@@ -15,6 +15,7 @@ A self-directed 2-month roadmap to become an agentic AI engineer — built entir
 | Day 3 | Tool calling with the raw API — model chooses and calls functions | [day3_tool_calling.py](day3_tool_calling.py) |
 | Day 4 | Multi-step agentic loop — model chains tool calls without being told to | [day4_agentic_loop.py](day4_agentic_loop.py) |
 | Day 5 | CLI chatbot with conversation history (no framework) | [day5_CLI_Chatbot.py](day5_CLI_Chatbot.py) |
+| Day 6 | Hallucination bug fix + grounding correction (correction day, no new .py) | [day6.md](docs/day6.md) |
 
 ## Daily logs
 Detailed notes for each day are in the [`docs/`](docs/) folder.
