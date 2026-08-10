@@ -29,8 +29,8 @@ to a graph-based framework for defining agent control flow.
 - **Agentic search tools** : giving the agent the ability to pull external
   information as part of its own reasoning steps.  
 
-## How this connects to Days 4–7
-Days 4–6 built a ReAct-style loop and CLI chatbot by hand; Day 7 rebuilt that
+## How this connects to Days 4-7
+Days 4-6 built a ReAct-style loop and CLI chatbot by hand; Day 7 rebuilt that
 loop in Smolagents. Both were fundamentally linear - the agent's control flow
 lived inside the code itself. LangGraph makes that control flow into an
 explicit, inspectable graph, which is what enables cycles (retry/re-plan),
