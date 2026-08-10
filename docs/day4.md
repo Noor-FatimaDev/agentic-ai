@@ -69,7 +69,3 @@ result = available_functions[call.function.name](**args)
 ```
 
 One line instead of a growing if/elif chain. When you add a new tool, you just add it to the dictionary — the rest of the code doesn't change. This scales cleanly as agents grow to 10, 20, 50 tools.
-
-## Next
-
-Day 5 — CLI(command line interface) Chatbot. Also finally fixing the hallucination from Day 3.
