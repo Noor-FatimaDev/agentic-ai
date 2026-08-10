@@ -27,7 +27,7 @@ to a graph-based framework for defining agent control flow.
 - **Streaming** : getting intermediate outputs as the agent runs, instead of
   waiting for the final result.
 - **Agentic search tools** : giving the agent the ability to pull external
-  information as part of its own reasoning steps.
+  information as part of its own reasoning steps.  
 
 ## How this connects to Days 4–7
 Days 4–6 built a ReAct-style loop and CLI chatbot by hand; Day 7 rebuilt that
