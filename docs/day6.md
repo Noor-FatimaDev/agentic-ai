@@ -42,7 +42,3 @@ Not a code bug, just the model being flaky sometimes. But it exposed a real gap 
 ## What I actually learned today
 
 "It broke" and "it broke once and now it's fine" are not the same problem, and I almost debugged the wrong one. If I hadn't reran it before touching more code, I probably would've gone down a rabbit hole blaming the system prompt for something it didn't cause. Also — letting docs go stale for two days straight is exactly how a real bug quietly disappears from the radar. Won't let that happen again.
-
-## Next
-- Actually read the ReAct paper — still owe myself this one.
-- Add retry logic to `day4_agentic_loop.py` for the flaky tool-call formatting.
