@@ -64,6 +64,3 @@ I also printed the entire `response` object instead of just the text, to see the
 
 The point of looking at this raw shape is that every agent framework I'll use later (LangChain, LangGraph, CrewAI) is just wrapping this exact request/response pattern with more logic on top. Seeing it bare on day one means none of it will feel like a black box later.
 
-## Next
-
-Day 2 — prompting fundamentals (zero-shot, few-shot, chain-of-thought) before building an agent loop from scratch.
