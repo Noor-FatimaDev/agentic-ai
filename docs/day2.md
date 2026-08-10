@@ -61,6 +61,3 @@ The `ask()` function exists so I don't repeat the same API call block three time
 
 Small prompt changes produce big behavioral changes. Zero-shot, few-shot, and chain-of-thought aren't just academic categories — they map directly to how you'll prompt agents to reason, format their output, and avoid making things up.
 
-## Next
-
-Day 3 — function calling: how an LLM decides to call a tool instead of just answering in text.
