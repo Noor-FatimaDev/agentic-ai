@@ -63,6 +63,3 @@ Second answer correctly references information from the first turn — confirms 
 
 This connects directly back to Day 1: the raw response object has no built-in memory, and `finish_reason` / `message.role` are just fields on a single stateless response. Every framework (LangChain, LangGraph) that appears to "remember" a conversation is doing exactly this under the hood — maintaining a list and resending it whole. There's no hidden memory on the server side; the illusion of memory is entirely client-side bookkeeping.
 
-## Next
-
-Day 6 — building on this further per the roadmap, and circling back to the hallucination bug flagged in Day 3 that never actually got fixed.
