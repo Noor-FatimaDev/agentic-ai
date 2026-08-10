@@ -27,6 +27,3 @@ So the actual finding: in day4's loop, tool use wasn't optional — the model li
 ## What I actually learned today
 
 Getting the "right answer" isn't the same as proving what you set out to prove — I almost deleted the `multiply` tool entirely because it "wasn't being used," which would've quietly turned this into a different, weaker demo than what day4 was actually showing. Also: `help(Class.__init__)` beats guessing parameter names every time — two of today's bugs were exactly that, and one of them failed silently instead of loudly, which is worse.
-
-## Next
-- Retry logic for flaky model output — still carried over from day5/6, still not done.
