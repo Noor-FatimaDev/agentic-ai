@@ -125,7 +125,3 @@ My `get_weather` function returns a hardcoded `"30°C, sunny"`. The model receiv
 ## Why `json.loads()` matters
 
 The model returns tool arguments as a JSON string, not a Python dictionary. Without `json.loads()` to convert it, trying to access `arguments["a"]` would fail silently or throw a type error. Always parse tool arguments before using them.
-
-## Next
-
-Day 4 — Agentic loop: The basic loop which is behind every agents working.
